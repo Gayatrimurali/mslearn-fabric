@@ -21,40 +21,34 @@ This lab will take approximately **45** minutes to complete.
 
 Before working with data in Fabric, create a workspace with the Fabric trial enabled.
 
-1. Sign into [Microsoft Fabric](https://app.fabric.microsoft.com) at `https://app.fabric.microsoft.com` and select **Power BI**.
+1. Click on **Microsoft Edge** from the desktop.
 
-   ![](./Images/power-bi.png)
+1. Navigate to `https://app.fabric.microsoft.com` and sign in using the below credentials:
 
-2. From the PowerBI home page, select **Account Manager** from the top-right corner to start the free **Microsoft Fabric trial**.
-    
-    ![](./Images/PwrBI_1.png)
-  
-3. In the Account Manager, select **Start Trial**.
+   - Email: and click on Submit
+   - Password: and click on Sign in
+
+      ![](./Images/power-bi.png)
+
+1. On the **Stay signed in?** pop-up, click on **No**.
+
+1. Click on the Profile icon from the top right and select **Start Trial**.
 
    ![](./Images/PwrBI_2.png)
    
-4. If prompted, agree to the terms and then select **Start trial**. 
-
-   ![](./Images/PwrBI_3.png)
+1. On the Activate your 60-day free Fabric Trial capacity, click on **Activate**. 
    
-5. Once your trial capacity is ready, you receive a confirmation message. Select **Got it** to begin working in Fabric.
-
-    ![](./Images/PwrBI_4.png)
+1. Once your trial capacity is ready, you will receive a confirmation message. Select **Got it** to begin working in Fabric.
    
-6. Open your **Account manager** again. Notice that you now have a heading for **Trial status**. Your Account manager keeps track of the number of days remaining in your trial.
+1. Open your **Account manager** again. Notice that you now have a heading for **Trial status**. Your Account manager keeps track of the number of days remaining in your trial.
 
-    ![](./Images/PwrBI_5.png)
+      > **Note:** You now have a **Fabric (Preview) trial** that includes a **Power BI trial** and a **Fabric (Preview) trial capacity**.
 
-   You now have a **Fabric (Preview) trial** that includes a **Power BI trial** and a **Fabric (Preview) trial capacity**.
+1. From the left pane, select **Workspaces (1)** and click on **+ New Workspace (2)**.
 
-7. In the menu bar on the left, select **Workspaces** (the icon looks similar to &#128455;).
-
-   ![](./Images/workspace-1.png)
-
-8. Create a new workspace with a name **dp_fabric-<inject key="Deployment ID" enableCopy="false"/>**, selecting a licensing mode that includes Fabric capacity (*Trial*, *Premium*, or *Fabric*).
-9. When your new workspace opens, it should be empty, as shown here:
-
-    ![Screenshot of an empty workspace in Power BI.](./Images/new-workspace-2.png)
+1. On the Create a workspace dialog box. provide the name as **dp_fabric-<inject key="Deployment ID" enableCopy="false"/>** **(1)** and click on **Apply (2)**.
+   
+1. When your new workspace opens, it should be empty, as shown here:
 
 ## Task 2 : Create a Lakehouse and upload files
 
