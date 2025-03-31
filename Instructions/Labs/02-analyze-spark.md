@@ -1,6 +1,9 @@
 # Lab : Analyze data with Apache Spark
 
+### Estimated Duration: 
+
 ## Overview
+
 Apache Spark is an open source parallel processing framework for large-scale data processing and analytics. Spark has become popular in "big data" processing scenarios, and is available in multiple platform implementations; including Azure HDInsight, Azure Databricks, Azure Synapse Analytics, and Microsoft Fabric.
 
 This module explores how you can use Spark in Microsoft Fabric to ingest, process, and analyze data in a lakehouse. While the core techniques and code described in this module are common to all Spark implementations, the integrated tools and ability to work with Spark in the same environment as other data services in Microsoft Fabric makes it easier to incorporate Spark-based data processing into your overall data analytics solution.
@@ -12,10 +15,6 @@ This module explores how you can use Spark in Microsoft Fabric to ingest, proces
 # Use Apache Spark in Microsoft Fabric
 
 Apache Spark is an open source engine for distributed data processing, and is widely used to explore, process, and analyze huge volumes of data in data lake storage. Spark is available as a processing option in many data platform products, including Azure HDInsight, Azure Databricks, Azure Synapse Analytics, and Microsoft Fabric. One of the benefits of Spark is support for a wide range of programming languages, including Java, Scala, Python, and SQL; making Spark a very flexible solution for data processing workloads including data cleansing and manipulation, statistical analysis and machine learning, and data analytics and visualization.
-
-This lab will take approximately **45** minutes to complete.
-
-> **Note**: You'll need a Microsoft Fabric license to complete this exercise. Complete the previous task to proceed further.
 
 ## Task 1 : Create a workspace
 
@@ -52,11 +51,8 @@ Before working with data in Fabric, create a workspace with the Fabric trial ena
 
 ## Task 2 : Create a Lakehouse and upload files
 
-Now that you have a workspace, it's time to switch to the *Data engineering* experience in the portal and create a data lakehouse for the data files you're going to analyze.
+1. On the **dp_fabric-<inject key="Deployment ID" enableCopy="false"/>** workspace, click on **+New Item (1)** and click on **Lakehouse (2)** from the list of items.
 
-1. At the bottom left of the Power BI portal, select the **Power BI (1)** icon and switch to the **Data Engineering (2)** experience.
-
-   ![](./Images/data-engineer.png)
 
 2. In the **Synapse Data Engineering** home page, create a new **Lakehouse** with a name **fabric_lakehouse**.
 
